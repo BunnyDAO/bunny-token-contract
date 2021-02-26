@@ -1,9 +1,9 @@
-var NEToken = artifacts.require("./OMToken.sol");
+var NEToken = artifacts.require("./BunnyToken.sol");
 
-const name = "OM Token";
-const symbol = "OM";
+const name = "KIT Token";
+const symbol = "KIT";
 const decimals = 18;
 
 module.exports = function (deployer) {
-    deployer.deploy(OMToken, name, symbol, decimals, {gas: 6700000});
+    deployer.deploy(KITToken, name, symbol, decimals, {gas: 6700000});
 };
