@@ -1,4 +1,4 @@
-## OM TOKEN
+## KIT TOKEN
 
 ## Dependencies
 
